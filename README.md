@@ -80,7 +80,7 @@ $$\mathcal{L} = \mathcal{L}_{\text{data}} + \lambda_{\text{phys}}\,\mathcal{L}_{
 ### 1. Clone
 
 ```bash
-git clone https://github.com/<your-username>/PINN-cylinder2D.git
+git clone https://github.com/Abderrafai-ETTAQI/PINN-for-2D-cylinder-flow.git
 cd PINN-cylinder2D
 ```
 
