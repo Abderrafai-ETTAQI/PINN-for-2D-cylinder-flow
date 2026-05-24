@@ -7,7 +7,7 @@ A **Physics-Informed Neural Network (PINN)** that learns the velocity and pressu
 ## What is a PINN?
 
 A PINN embeds physical laws directly into the loss function of a neural network.  
-Instead of only minimising the error against labelled data, the network is also penalised for violating the governing differential equations — enabling physics-consistent predictions even in data-sparse regions.
+Instead of only minimising the error against labelled data, the network is also penalised for violating the governing differential equations enabling physics-consistent predictions even in data-sparse regions.
 
 ---
 
