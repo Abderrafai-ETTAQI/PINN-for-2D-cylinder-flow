@@ -1,0 +1,23 @@
+# Data (large binary file — share separately)
+data/
+
+# Model checkpoints
+checkpoints/
+
+# Training outputs
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
