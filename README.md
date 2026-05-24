@@ -143,7 +143,6 @@ Validation images are saved every 50 epochs to `outputs/val_images/`.
 
 - **Separate collocation points** for physics loss — enforces PDE across the full domain, not only at data locations (a requirement for a true PINN).
 - **Input normalisation** — zero-mean, unit-variance normalisation applied to `(x, y, t)` before entering the network.
-- **Custom training loop** — necessary because `tf.GradientTape` must be nested inside the physics loss; `model.compile` / `model.fit` cannot express this naturally.
 - **Best-model checkpointing** — weights are saved whenever the total loss improves.
 
 ---
